@@ -6,24 +6,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-    <script type="text/javascript" src="data.json"></script>
-
-
+   
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/simple-sidebar.css" rel="stylesheet">
+   
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 <style type="text/css">
 
 #below { 
-   height:1080px; 
-   width:1080px; 
-   
-   padding-left: 1024px;
+	width:1080px; 
+	height:1080px; 
+	padding-left: 1024px;
 }
 </style>
 
@@ -31,32 +26,20 @@
 
 <body>
 
-    <div id="wrapper">
+  <div id="wrapper">
 
 
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Twitter API</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-           
-          </ul>
-        
+         <a class="navbar-brand" >Twitter API</a>
         </div>
       </div>
     </nav>
-        <div id="sidebar-wrapper" style="">
+        <div id="sidebar-wrapper" >
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
+                <li >
+                    <a>
                        Twitter API
                     </a>
                 </li>
@@ -103,34 +86,14 @@
         </div>
 
         <div class="formc" style="width:800px; margin:0 auto;">                   
-<div class="form-field" >   
-    
- 
-            <div class="large-inputtext">
+		<div class="form-field" >   
+			<div class="large-inputtext">
                     <iframe id='ifr' src="" width="800" height="800" align="left">
                     </iframe>
              </div>
-                                
-               
-       
-                
-    </div>
-
-
-     
-          
-        
-
-          
-
-
-</div>
-    </div>
-   
-    <script src="js/jquery.js"></script>
-
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
+           </div>
+	</div>
+  </div>
+ </body>
 
 </html>
